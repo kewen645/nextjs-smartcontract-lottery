@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-smartcontract-lottery-fcc-new",
+  "name": "nextjs-smartcontract-lottery",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,8 +9,26 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@web3uikit/core": "^0.2.27",
+    "@web3uikit/icons": "^0.2.23",
+    "@web3uikit/styles": "^0.2.26",
+    "@web3uikit/web3": "^0.2.2",
+    "ethers": "^5.7.2",
+    "magic-sdk": "^10.1.0",
+    "moralis-v1": "^1.12.0",
     "next": "13.0.6",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-moralis": "^1.4.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.20",
+    "prettier": "^2.8.1",
+    "tailwindcss": "^3.2.4"
+  },
+  "resolutions": {
+    "ethereumjs-abi": "https://registry.npmjs.org/ethereumjs-abi/-/ethereumjs-abi-0.6.8.tgz",
+    "wp5-cra-polyfill": "https://github.com/oscario2/wp5-cra-polyfill.git"
   }
 }
